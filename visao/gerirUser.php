@@ -43,7 +43,7 @@ $con = mysqli_query($conexao, $consulta);
 				style="display:none;"
 				<?php } ?>><a href="gerirUser.php">Gestão Utilizador</a></li>
 
-				<li><a href="../controle/logout.php">Sair</a></</li>
+		
 			</ul>
 		</nav>
 	</div>

@@ -36,6 +36,8 @@ $con = mysqli_query($conexao, $consulta);
 	  <link rel="stylesheet" type="text/css" href="../css/estilo.css">
 	  <link rel="stylesheet" type="text/css" href="../css/estiloMedia.css">
 	<title>Tela Principal</title>
+
+<script type="text/javascript" src="../js/js.js"></script>
 </head>
 
 <body>
@@ -61,7 +63,8 @@ $con = mysqli_query($conexao, $consulta);
 				style="display:none;"
 				<?php } ?>><a href="gerirUser.php">Gestão Utilizador</a></li>
 
-				<li><a href="../controle/logout.php">Sair</a></</li>
+				<li><a><input class="sair" id="button" type="button" onclick="sair();" value="SAIR"></li></a>
+				
 			</ul>
 		</nav>
 	</div>
